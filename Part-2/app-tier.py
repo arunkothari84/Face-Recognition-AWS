@@ -50,8 +50,8 @@ async def setIntervalPooling():
         # print(data)
         if 'Messages' in data:
             message = json.loads(data['Messages'][0]['Body'])
-            S3_intput = '1229515081-in-bucket'
-            S3_output = "1229515081-out-bucket"
+            S3_intput = # Your Bucket
+            S3_output = # Your Bucket
 
             local_file_path = '/home/ubuntu/model/images/image.jpg'
 
